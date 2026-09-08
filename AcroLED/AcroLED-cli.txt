@@ -1,0 +1,53 @@
+set ledstrip_profile = RACE
+set ledstrip_race_color = BLACK
+
+led 0 0,0::CV:0
+led 1 1,0::CV:0
+led 2 2,0::CV:0
+led 3 3,0::CV:0
+led 4 4,0::CV:0
+led 5 5,0::CV:0
+led 6 6,0::CV:0
+led 7 7,0::CV:0
+led 8 0,1::CV:0
+led 9 1,1::CV:0
+led 10 2,1::CV:0
+led 11 3,1::CV:0
+led 12 4,1::CV:0
+led 13 5,1::CV:0
+led 14 6,1::CV:0
+led 15 7,1::CV:0
+led 16 0,2::CV:0
+led 17 1,2::CV:0
+led 18 2,2::CV:0
+led 19 3,2::CV:0
+led 20 4,2::CV:0
+led 21 5,2::CV:0
+led 22 6,2::CV:0
+led 23 7,2::CV:0
+led 24 0,3::CV:0
+led 25 1,3::CV:0
+led 26 2,3::CV:0
+led 27 3,3::CV:0
+led 28 4,3::CV:0
+led 29 5,3::CV:0
+led 30 6,3::CV:0
+led 31 7,3::CV:0
+
+color 1 0,0,250
+color 2 51,22,230
+color 3 37,22,230
+color 4 231,32,160
+color 6 254,51,200
+color 10 217,44,230
+color 11 240,0,250
+color 13 115,0,250
+
+vtx 0 7 5 1 0 1000 1125
+vtx 1 7 5 2 0 1125 1250
+vtx 2 7 5 3 0 1250 1375
+vtx 3 7 5 6 0 1375 1500
+vtx 4 7 4 2 0 1500 1625
+vtx 5 7 4 4 0 1625 1750
+vtx 6 7 5 7 0 1750 1875
+vtx 7 7 5 8 0 1875 2000
